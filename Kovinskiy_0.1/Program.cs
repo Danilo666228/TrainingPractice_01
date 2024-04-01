@@ -18,6 +18,7 @@ namespace Kovinskiy_0._1
             bool canBuy = UserValue >= CrystalPrice;
 
             Console.WriteLine(canBuy ? $"Сделка завершена\nВаш остаток: {remainder}" : "У вас меньше, чем нужно");
+            
         }
     }
 }
