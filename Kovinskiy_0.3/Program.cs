@@ -24,13 +24,13 @@ namespace Kovinskiy_0._3
                     case "1":
                         enemy1.Health -= player1.DefaultAttack();
                         IsWin();
-                        Console.WriteLine($"Здоровье врага: {enemy1.Health}");
+                        Console.WriteLine($"Здоровье босса: {enemy1.Health}");
                         Console.WriteLine("--------------");
                         break;
                     case "2":
                         enemy1.Health -= player1.Pupse();
                         IsWin();
-                        Console.WriteLine($"Здоровье врага: {enemy1.Health}");
+                        Console.WriteLine($"Здоровье босса: {enemy1.Health}");
                         Console.WriteLine("--------------");
                         break;
                     case "3":
@@ -42,32 +42,32 @@ namespace Kovinskiy_0._3
                     case "4":
                         enemy1.Health -= player1.Jumshak();
                         IsWin();
-                        Console.WriteLine($"Здоровье врага: {enemy1.Health}");
+                        Console.WriteLine($"Здоровье босса: {enemy1.Health}");
                         Console.WriteLine("--------------");
                         break;
                     case "5":
                         enemy1.Health -= player1.GoogShot();
                         IsWin();
-                        Console.WriteLine($"Здоровье врага: {enemy1.Health}");
+                        Console.WriteLine($"Здоровье босса: {enemy1.Health}");
                         Console.WriteLine("--------------");
                         break;
                 }
 
-                Console.WriteLine("Ход врага");
-                Console.WriteLine("1 - Обычная атака\n2 - Спел");
+                Console.WriteLine("Ход босса");
+                Console.WriteLine("1 - Обычная атака\n2 - Pups\n3 - TeleMort\n4 - Jumshak\n 5 - GoogShot");
 
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        enemy1.Health -= player1.DefaultAttack();
+                        player1.Health -= enemy1.DefaultAttack();
                         IsWin();
-                        Console.WriteLine($"Здоровье врага: {enemy1.Health}");
+                        Console.WriteLine($"Здоровье игрока: {player1.Health}");
                         Console.WriteLine("--------------");
                         break;
                     case "2":
-                        enemy1.Health -= player1.Pupse();
+                        player1.Health -= enemy1.Pupse();
                         IsWin();
-                        Console.WriteLine($"Здоровье врага: {enemy1.Health}");
+                        Console.WriteLine($"Здоровье игрока: {player1.Health}");
                         Console.WriteLine("--------------");
                         break;
                     case "3":
@@ -77,15 +77,15 @@ namespace Kovinskiy_0._3
                         Console.WriteLine("--------------");
                         break;
                     case "4":
-                        enemy1.Health -= player1.Jumshak();
+                        player1.Health -= enemy1.Jumshak();
                         IsWin();
-                        Console.WriteLine($"Здоровье врага: {enemy1.Health}");
+                        Console.WriteLine($"Здоровье игрока: {player1.Health}");
                         Console.WriteLine("--------------");
                         break;
                     case "5":
-                        enemy1.Health -= player1.GoogShot();
+                        player1.Health -= enemy1.GoogShot();
                         IsWin();
-                        Console.WriteLine($"Здоровье врага: {enemy1.Health}");
+                        Console.WriteLine($"Здоровье игрока: {player1.Health}");
                         Console.WriteLine("--------------");
                         break;
                 }

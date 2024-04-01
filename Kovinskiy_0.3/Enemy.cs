@@ -1,4 +1,6 @@
-﻿namespace Kovinskiy_0._3
+﻿using System;
+
+namespace Kovinskiy_0._3
 {
     public class Enemy
     {
@@ -38,7 +40,7 @@
 
         public int GoogShot()
         {
-            Console.WriteLine("Вы используете всю свою энергию и очень быстро атакуете врага");
+            Console.WriteLine("Вы используете всю свою энергию и очень быстро атакуете врага отнимая у него 500 хп");
             return Damage = 500;
         }
     }

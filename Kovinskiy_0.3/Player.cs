@@ -40,7 +40,7 @@ namespace Kovinskiy_0._3
 
         public int GoogShot()
         {
-            Console.WriteLine("Вы используете всю свою энергию и очень быстро атакуете врага");
+            Console.WriteLine("Вы используете всю свою энергию и очень быстро атакуете врага отнимая у него 500 хп");
             return Damage = 500;
         }
     }
