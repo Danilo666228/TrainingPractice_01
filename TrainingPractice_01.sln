@@ -1,6 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingPractice_01", "TrainingPractice_01\TrainingPractice_01.csproj", "{4ED1E451-E779-4D55-ABA2-4FB1C1CDD92B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kovinskiy_0.2", "Kovinskiy_0.2", "{E1478B2C-A42D-44A5-8D50-A858C0EF7CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kovinskiy_0.2", "Kovinskiy_0.2\Kovinskiy_0.2.csproj", "{4085767E-BA31-4D56-810C-F59FED99763A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kovinskiy_0.3", "Kovinskiy_0.3", "{BFB179D6-392C-44FD-BC2F-D20FF0223059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kovinskiy_0.4", "Kovinskiy_0.4", "{620186DF-7E9C-4CE4-BC9D-01FD9162A06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kovinskiy_0.3", "Kovinskiy_0.3\Kovinskiy_0.3.csproj", "{FF9B8DE1-8921-4A75-BC65-A55A5708BE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kovinskiy_0.4", "Kovinskiy_0.4\Kovinskiy_0.4.csproj", "{0E036345-2A20-45D1-83B1-1EC279C60C5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kovinskiy_0.1", "Kovinskiy_0.1", "{AE3A3069-7F5C-40D7-9AD3-9296869B04EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kovinskiy_0.1", "Kovinskiy_0.1\Kovinskiy_0.1.csproj", "{6E358F43-E453-46D9-97EF-B2EF123D5719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +22,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4ED1E451-E779-4D55-ABA2-4FB1C1CDD92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ED1E451-E779-4D55-ABA2-4FB1C1CDD92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ED1E451-E779-4D55-ABA2-4FB1C1CDD92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ED1E451-E779-4D55-ABA2-4FB1C1CDD92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4085767E-BA31-4D56-810C-F59FED99763A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4085767E-BA31-4D56-810C-F59FED99763A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4085767E-BA31-4D56-810C-F59FED99763A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4085767E-BA31-4D56-810C-F59FED99763A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9B8DE1-8921-4A75-BC65-A55A5708BE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9B8DE1-8921-4A75-BC65-A55A5708BE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9B8DE1-8921-4A75-BC65-A55A5708BE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9B8DE1-8921-4A75-BC65-A55A5708BE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E036345-2A20-45D1-83B1-1EC279C60C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E036345-2A20-45D1-83B1-1EC279C60C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E036345-2A20-45D1-83B1-1EC279C60C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E036345-2A20-45D1-83B1-1EC279C60C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E358F43-E453-46D9-97EF-B2EF123D5719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E358F43-E453-46D9-97EF-B2EF123D5719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E358F43-E453-46D9-97EF-B2EF123D5719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E358F43-E453-46D9-97EF-B2EF123D5719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4085767E-BA31-4D56-810C-F59FED99763A} = {E1478B2C-A42D-44A5-8D50-A858C0EF7CFA}
+		{FF9B8DE1-8921-4A75-BC65-A55A5708BE93} = {BFB179D6-392C-44FD-BC2F-D20FF0223059}
+		{0E036345-2A20-45D1-83B1-1EC279C60C5B} = {620186DF-7E9C-4CE4-BC9D-01FD9162A06C}
+		{6E358F43-E453-46D9-97EF-B2EF123D5719} = {AE3A3069-7F5C-40D7-9AD3-9296869B04EA}
 	EndGlobalSection
 EndGlobal
